@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+.header-title {
+  width: 120px; /* 横幅 */
+  height: 120px; /* 高さ */
+  background-color: pink; /* 背景色 */
+  padding: 20px 20px;
+  margin: 0 auto;
+  line-height: 60px;
+}
+
+.nav {
+  background-color: red;
+  float:left;
+}
+ 
+.main {
+  width: 840px; /* 横幅 */
+  background-color: green; /* 背景色 */
+  /* 中央寄せ（余白がないとできない） */
+  margin: 0 auto;
+}
+ 
+.footer {
+  width: 100%; /* 横幅 */
+  height: 120px; /* 高さ */
+  background-color: blue; /* 背景色 */
+}
